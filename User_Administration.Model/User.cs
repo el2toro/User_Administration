@@ -17,7 +17,6 @@ namespace User_Administration.Model
         private int id;
         private string userName;
         private string password;
-        private string retypedPassword;
         private bool isAdmin;
         private Dictionary<string, List<string>> errors = new Dictionary<string, List<string>>();
 
